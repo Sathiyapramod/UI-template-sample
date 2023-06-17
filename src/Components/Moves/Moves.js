@@ -12,7 +12,7 @@ function Moves() {
     })
       .then((response) => response.json())
       .then((result) => {
-        // console.log(result.Customer_Estimate_Flow);
+        console.log(result.Customer_Estimate_Flow);
         setData(result.Customer_Estimate_Flow);
       });
   };

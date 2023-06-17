@@ -10,7 +10,7 @@ import "./Moves.css";
 import Inventory from "./Inventory";
 
 function MovesList({ moves }) {
-  console.log(moves.items);
+  // console.log(moves.items);
   const [isActive, setActive] = useState(false);
   const [isItemToggled, setToggle] = useState(false);
   const contentStyle = {
@@ -140,9 +140,7 @@ function MovesList({ moves }) {
           </div>
         </div>
         {moves.items.inventory.map((inventory, index) => {
-          return (
-            <Inventory item={inventory} key={index} />
-          );
+          return <Inventory item={inventory} key={index} />;
         })}
       </div>
       <hr />
