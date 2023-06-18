@@ -36,17 +36,18 @@ function Inventory({ item }) {
               <div className="category-items">
                 {category.items.map((item, index) => {
                   return (
-                    <div className="category-block">
-                      <div className="category-title">
-                        {item.displayName}
-                        <br />
-                        <span className="category-subheading">
-                          {item.name_old}
-                        </span>
-                      </div>
-                      <div className="category-count">
-                        
-                      </div>
+                    <div className="category-block" key={index}>
+                      {item.qty !== 0 && (
+                        <>
+                          <div className="category-title">
+                            <div>{item.displayName}</div>
+                            <div className="category-subheading">
+                              {item.name_old}
+                            </div>
+                          </div>
+                          <div className="category-count">{item.qty}</div>
+                        </>
+                      )}
                     </div>
                   );
                 })}
@@ -57,9 +58,6 @@ function Inventory({ item }) {
       </div>
     </div>
   );
-}
-function Item({ item, isItemToggled, setToggle }) {
-  return <div className="item-body"></div>;
 }
 
 export default Inventory;

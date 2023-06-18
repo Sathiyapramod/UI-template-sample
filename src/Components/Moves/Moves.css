@@ -189,19 +189,27 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .category {
     font-size: 1rem;
     font-weight: 900;
+    background-color: aqua;
+}
+.category-items{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
 }
 
 .category-block {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid black;
+    gap: 1.5rem;
 }
 
 .category-title {
@@ -209,6 +217,7 @@ hr {
     margin-bottom: 1rem;
     font-weight: bolder;
     display: flex;
+    flex-direction: column;
     justify-self: flex-start;
     align-self: center;
 }
