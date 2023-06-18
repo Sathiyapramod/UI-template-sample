@@ -32,6 +32,7 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 5rem;
+    flex-wrap: wrap;
 }
 
 .from-address,
@@ -157,6 +158,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     margin-top: 1rem;
+    flex-wrap: wrap;
 }
 
 .colored-title {
@@ -173,6 +175,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: lightgray;
     padding: 1rem 0.5rem 1rem 0.5rem;
 }
 

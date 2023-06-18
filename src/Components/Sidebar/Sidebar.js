@@ -14,7 +14,7 @@ function Sidebar() {
           <div className="menu-icon">
             <img src={bus} alt="..." width="30" height="30" />
           </div>
-          <div className="menu-title">My Routes</div>
+          <div className="colored-menu-title">My Moves</div>
         </div>
         <div className="menu">
           <div className="menu-icon">

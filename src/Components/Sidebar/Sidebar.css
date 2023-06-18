@@ -34,3 +34,8 @@
 .menu:hover {
     color: orange;
 }
+.colored-menu-title{
+    background-color: orangered;
+    color:#fff;
+    padding: 10px;
+}
