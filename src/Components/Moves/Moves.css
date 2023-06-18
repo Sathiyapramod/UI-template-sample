@@ -173,7 +173,6 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightgray;
     padding: 1rem 0.5rem 1rem 0.5rem;
 }
 
@@ -195,10 +194,8 @@ hr {
 .category {
     font-size: 1rem;
     font-weight: 900;
-    background-color: aqua;
 }
 .category-items{
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
 }
@@ -208,7 +205,6 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    border: 1px solid black;
     gap: 1.5rem;
 }
 
